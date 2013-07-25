@@ -21,6 +21,8 @@
 		23BE088917A0687800218AE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BE086B17A0687700218AE9 /* UIKit.framework */; };
 		23BE089117A0687800218AE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23BE088F17A0687800218AE9 /* InfoPlist.strings */; };
 		23BE089317A0687800218AE9 /* Portal_RadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BE089217A0687800218AE9 /* Portal_RadioTests.m */; };
+		23E37B3B17A0816C00692333 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E37B3A17A0816C00692333 /* AVFoundation.framework */; };
+		23E37B3D17A0837B00692333 /* RadioLoop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 23E37B3C17A0837B00692333 /* RadioLoop.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		23BE088E17A0687800218AE9 /* Portal RadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Portal RadioTests-Info.plist"; sourceTree = "<group>"; };
 		23BE089017A0687800218AE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23BE089217A0687800218AE9 /* Portal_RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Portal_RadioTests.m; sourceTree = "<group>"; };
+		23E37B3A17A0816C00692333 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		23E37B3C17A0837B00692333 /* RadioLoop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = RadioLoop.aiff; sourceTree = "<group>"; };
+		23E37B3E17A084C900692333 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E37B3B17A0816C00692333 /* AVFoundation.framework in Frameworks */,
 				23BE086A17A0687700218AE9 /* CoreGraphics.framework in Frameworks */,
 				23BE086C17A0687700218AE9 /* UIKit.framework in Frameworks */,
 				23BE086817A0687700218AE9 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		23BE086617A0687700218AE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23E37B3E17A084C900692333 /* AudioToolbox.framework */,
+				23E37B3A17A0816C00692333 /* AVFoundation.framework */,
 				23BE086717A0687700218AE9 /* Foundation.framework */,
 				23BE086917A0687700218AE9 /* CoreGraphics.framework */,
 				23BE086B17A0687700218AE9 /* UIKit.framework */,
@@ -118,6 +126,7 @@
 				23BE087C17A0687700218AE9 /* PortalViewController.h */,
 				23BE087D17A0687700218AE9 /* PortalViewController.m */,
 				23BE087F17A0687800218AE9 /* Images.xcassets */,
+				23E37B3C17A0837B00692333 /* RadioLoop.aiff */,
 				23BE086E17A0687700218AE9 /* Supporting Files */,
 			);
 			path = "Portal Radio";
@@ -232,6 +241,7 @@
 				23BE088017A0687800218AE9 /* Images.xcassets in Resources */,
 				23BE087217A0687700218AE9 /* InfoPlist.strings in Resources */,
 				23BE087B17A0687700218AE9 /* Main.storyboard in Resources */,
+				23E37B3D17A0837B00692333 /* RadioLoop.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +465,7 @@
 				23BE089817A0687800218AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23BE089917A0687800218AE9 /* Build configuration list for PBXNativeTarget "Portal RadioTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +474,7 @@
 				23BE089B17A0687800218AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
