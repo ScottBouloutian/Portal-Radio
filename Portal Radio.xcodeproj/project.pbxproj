@@ -209,6 +209,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Scott Bouloutian";
 				TargetAttributes = {
+					23BE086317A0687700218AE9 = {
+						DevelopmentTeam = 8U4Y8L92KE;
+					};
 					23BE088417A0687800218AE9 = {
 						TestTargetID = 23BE086317A0687700218AE9;
 					};
@@ -385,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Portal Radio/Portal Radio-Prefix.pch";
 				INFOPLIST_FILE = "Portal Radio/Portal Radio-Info.plist";
@@ -398,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Portal Radio/Portal Radio-Prefix.pch";
 				INFOPLIST_FILE = "Portal Radio/Portal Radio-Info.plist";
