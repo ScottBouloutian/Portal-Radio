@@ -45,7 +45,7 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-
+    [player play];
 }
 
 - (void)didReceiveMemoryWarning
